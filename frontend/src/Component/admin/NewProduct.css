@@ -1,0 +1,23 @@
+.newProductContainer{
+    text-align: center;
+    padding: -1vmax;
+    
+    justify-content: space-between;
+    width:40vmax;
+    margin-left: 30vmax;
+}
+.createProductForm>h1{
+    border-bottom: 2px solid black;
+    width: 50%;
+    margin-left: 10vmax;
+    
+}
+.createProductForm{
+    background-color: antiquewhite;
+    height: 40%;
+}
+.createProductForm>div{
+    margin: 1vmax;
+    font: 200 1.4vmax Roboto;
+   
+}

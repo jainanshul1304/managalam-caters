@@ -1,0 +1,113 @@
+.containerr {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container2 {
+    margin-top: 10vmax;
+    background-color: tomato;
+    margin-left: 2vmax;
+    margin-right: 2vmax;
+    padding: 1vmax;
+    border-radius: 3px;
+    font: 300 1.5vmax "Roboto";
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+}
+
+.row {
+    margin-left: 2vmax;
+}
+
+.cartContainer {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+
+
+}
+
+.cartInput {
+
+    display: flex;
+    align-items: center;
+    height: 8vmax;
+}
+
+.cartInput>button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 0.5vmax;
+    cursor: pointer;
+    color: aliceblue;
+    transition: all 0.5s;
+}
+
+.cartInput>button:hover {
+    background-color: rgba(0, 0, 0, 0.767);
+}
+
+.cartInput>input {
+    border: none;
+    width: 3vmax;
+
+    text-align: center;
+    font: 400 0.8vmax "Roboto";
+    color: rgba(0, 0, 0, 0.74);
+}
+
+.cartSubTotal {
+    font: 400 1.3vmax cursive;
+    display: flex;
+    padding: 0.5vmax;
+    text-align: center;
+    margin-top: 2vmax;
+}
+
+.cartGrossProfit {
+    display: grid;
+    grid-template-columns: 7fr 1.8fr;
+
+}
+
+.cartGrossProfitBox {
+    border-top: 1px solid black;
+    box-sizing: border-box;
+    width: -90%;
+    margin-right: 3vmax;
+}
+.checkOutButton{
+    border-radius: 4px;
+
+}
+.checkOutButton:hover{
+    border-radius: 4px;
+}
+
+.Noitem{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20vmax;
+    color: brown;
+}
+.Noitem>a{
+    color: brown;
+    text-decoration: none;
+}
+
+.Noitem >img{
+    height: 8vmax;
+}
+.cartInput>input{
+    font: 300 1.9vmax carosole;
+}
+.checkOutButton>a{
+    color: black;
+    text-decoration: none;
+    border:2px solid black;
+    background-color: tomato;
+    border-radius: 2px;
+}

@@ -1,0 +1,30 @@
+.paymentForm{
+    text-align: center;
+    border-bottom: 2px;
+    margin-top: 10vmax;
+    
+}
+.paymentForm>div{
+    box-sizing: border-box;
+    width: 20%;
+    margin-left: 40vmax;
+    margin-top: 3vmax;
+}
+.box{
+    background-color:whitesmoke;
+    width: 40%;
+    box-sizing: border-box;
+}
+.hi>div>span{
+    border: 2px solid black;
+}
+@media screen and(max-width:800px) {
+    .paymentForm>div>div{
+        max-width: 100%;
+        
+    }
+    .paymentForm>div>div>input{
+        width: 100%;
+
+    }
+}

@@ -1,0 +1,81 @@
+.profileContainer{
+    
+    
+    border-bottom: 2px ;
+    margin-top: 10vh;
+    cursor: pointer;
+    position: relative;
+    top:13%;
+    left: 50%;
+}
+.profileContainer>h2{
+   font: 300 1.9vmax "Roboto";
+   margin-bottom: 4vmax;
+   margin-top: 2vmax;
+   border-bottom: 0.1vmax solid black;
+   width: 9vmax;
+}
+#link{
+    color: black;
+    border: 0.1px solid black;
+    border-radius: 0.2vmax;
+    text-decoration: none;
+    font: 400 1vmax  "Roboto";
+    text-align: center;
+    justify-content: center;
+    background-color: tomato;
+    width: 70vmax;
+    padding: 2px;
+    
+}
+#link:hover{
+    color:black;
+    font: 200 1.1vmax "Roboto";
+}
+
+.profile2>div>h4{
+    color: black;
+    font: 200 1.2vmax "Roboto";
+    margin-bottom: 1vmax;
+    border-radius: 2px;
+}
+
+.profile2>div>p{
+    color: black;
+    font: 400 1vmax "Roboto";
+    margin: 0.2vmax;
+    margin-bottom: 2vmax;
+    
+}
+
+
+@media screen and (max-width:900px) {
+    .profile2>div>h4{
+        color: black;
+        font: 200 2vmax "Roboto";
+        margin-bottom: 1vmax;
+        border-radius: 2px;
+    }
+    .profile2>div>p{
+        color: rgb(0,0,0,0.418);
+        font: 400 3vmax "Roboto";
+        margin: 0.2vmax;
+        margin-bottom: 2vmax;
+        
+    }
+    #link{
+        color: black;
+        border: none;
+        text-decoration: none;
+        font: 400 2vmax  "Roboto";
+        margin-left: vmax;
+        background-color: tomato;
+        max-width: 40%;
+        padding: 2px;
+        
+    }
+    #link:hover{
+        color:black;
+        font: 200 1.1vmax "Roboto";
+    }
+}

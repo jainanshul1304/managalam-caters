@@ -1,0 +1,73 @@
+#footer{
+    color: white;
+    background-color: black;
+    margin-top: 10vmax;
+    
+}
+
+#leftfooter :hover{
+    color: yellow;
+}
+#leftfooter > h3{
+   
+    font-family: "Franklin Gothic Medium","Arial Narrow",Arial,sans-serif;
+}
+#leftfooter >p{
+    text-align: center;
+    font-family: "lucida sans";
+}
+#leftfooter >img{
+    margin-left: 1vmax;
+    margin-bottom: 1vmax;
+    cursor: pointer;
+    width: 60%;
+    
+}
+
+#midfooter>h3{
+    font-family: "Franklin Gothic Medium","Arial Narrow",Arial,sans-serif;
+}
+#midfooter :hover{
+   color: yellow;
+}
+#midfooter >img{
+    margin-left: 1vmax;
+    margin-bottom: 1vmax;
+    cursor: pointer;
+}
+#midfooter >p>img{
+    height: 20px;
+    width:20px;
+    margin: 2%;
+    cursor: pointer;
+}
+#midfooter>p{
+    margin-left: 1px;
+    font-family: "lucida sans";
+}
+#midfooter>p>a{
+    cursor: pointer;
+    font-family: "lucida sans";
+    color:white;
+}
+#rightfooter >P{
+    margin-top: 20px;
+    font-family: "lucida sans";
+}
+
+#rightfooter>h3{
+    font-family: "Franklin Gothic Medium","Arial Narrow",Arial,sans-serif;
+    margin-top: 40px;
+    color: red;
+}
+#rightfooter :hover{
+    color: yellow;
+}
+#rightfooter>div>p>img{
+    height: 30px;
+    width:35px;
+    margin: 2%;
+}
+#curser{
+    cursor: pointer;
+}

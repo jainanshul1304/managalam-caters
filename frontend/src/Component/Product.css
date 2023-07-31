@@ -1,0 +1,22 @@
+.productCard>p{
+    font: 100 1.3vmax Roboto;
+}
+.productCard>div>img{
+    width: 13vw;
+}
+@media screen and (max-width:800px ) {
+    .productCard>p{
+        font: 200 2.2vmax Roboto;
+    }
+    .productCard>div>img{
+        width: 15vw;
+    }
+}
+@media screen and (max-width:520px) {
+    .productCard>p{
+        font: 200 2.2vmax Roboto;
+    }
+    .productCard>div>img{
+        width: 25vw;
+    }
+}

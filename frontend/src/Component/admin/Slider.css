@@ -1,0 +1,76 @@
+.slidebar {
+    margin-left: 5vmax;
+    margin-top: 10vmax;
+    justify-content: space-between;
+    padding: 2vmax;
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+}
+
+.slidebar>div>div>a>h5 {
+
+    color: black;
+    font: 200 2vmax "Roboto";
+    text-decoration: none;
+}
+
+.slidebar>div>div>a {
+
+    text-decoration: none;
+}
+
+.btn2 {
+    font: 200 1.3vmax "Roboto";
+    border: none;
+    background-color: white;
+    margin-top: -9vmax;
+
+}
+
+
+.slidebar>div>a {
+    text-decoration: none;
+    color: black;
+    font: 300 1.2vmax "Roboto";
+}
+
+.slidebar>div>a>p:hover {
+    border-radius: 2px solid black;
+    transform: scaleX(1.2);
+
+
+}
+
+.btn2:hover {
+    border-radius: 2px solid black;
+    transform: scaleX(1.2);
+}
+
+.head>a>h5>img {
+    height: 6vmax;
+    width: 7vmax;
+
+}
+
+@media screen and (max-width: 800px) {
+    .slidebar>div>a>p {
+        text-decoration: none;
+        color: black;
+        font: 300 1.9vmax "Roboto";
+
+
+    }
+
+    .slidebar>div>a>p:hover {
+        transform: scaleX(1.2);
+
+    }
+
+    .slidebar {
+        display: flex;
+        flex-direction: column;
+
+    }
+}

@@ -1,0 +1,18 @@
+.myorderspge{
+    margin-top: 4vmax;
+    
+    font: 300 1.3vmax Roboto;
+    margin-left: 1vmax;
+    padding: auto;
+}
+.myorderspge>div{
+    padding: 1vmax;
+    display: flex;
+    margin-left: 1vmax;
+    justify-content: space-between;
+    margin-right: 2vmax;
+}
+
+@media screen and(max-width:800) {
+    
+}

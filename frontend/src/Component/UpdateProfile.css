@@ -1,0 +1,54 @@
+.UpdateProfileContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin-bottom: 2px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white; 
+    padding-bottom:20px ;
+    top:0%;
+    left:0;
+}
+.pu{
+    border-bottom: 2px;
+    color: black;
+    margin-bottom: 2vmax;
+    font: 400 1.4vmax "Roboto";
+    text-align: center;
+}
+.UpdateProfileContainer>h2{
+    border-bottom: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white; 
+    margin-bottom: 2vmax;
+    left:0;
+    background-color: antiquewhite;
+}
+.UpdateProfileBoxx{
+    background-color: antiquewhite;
+    margin:3vmax ;
+    padding: 5vmax;
+}
+.UpdateProfileName{
+    margin-bottom:2vmax ;
+}
+.UpdateProfileEmail{
+    margin-bottom:2vmax ;
+}
+
+.UpdateProfileBtn{
+    background-color: tomato;
+    padding: 5px;
+    width: 100%;
+}
+
+@media screen and (max-width:700) {
+    .pu{
+        font:600 1.9px "Roboto";
+    }
+}

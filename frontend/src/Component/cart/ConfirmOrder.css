@@ -1,0 +1,79 @@
+.confirmOrderPage{
+   background-color: aliceblue ;
+    
+    display: grid;
+    
+}
+
+.confirmShippingArea{
+    margin-top: 10vmax;
+    position: relative;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5vmax;
+}
+.confirmShippingArea{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.confirmShippingAreaBox>div>div{
+    display:flex ;
+    margin: 1vmax 0;
+    
+}
+.confirmShippingAreaBox>div>div>span{
+    margin-left: 2vmax;
+}
+.confirmCartItem{
+    margin-top: 4vmax;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1vmax;
+    padding: auto;
+}
+
+.confirmCartItem>div{
+    padding: 1vmax;
+    display: flex;
+    margin-left: 2vmax;
+    justify-content: space-between;
+}
+.confirmCartItem>div>p{
+    color: red;
+    
+}
+
+.orderSummary{
+    margin-top: 14vmax;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.orderSummary>div>div{
+    display: flex;
+    margin-left: 10vmax;
+    justify-content: space-between;
+    
+}
+.orderSummary>div>div>p{
+    margin-right: 1vmax;
+}
+.orderSummary>div>div>span{
+    margin-left: 2vmax;
+    color: red;
+}
+.orderSummary>button{
+    background-color: tomato;
+    margin-top: 1vmax;
+}
+.orderSummary{
+    border-left: 2px solid black;
+}
+.ordertotal{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vmax;
+}
+@media screen and (max-width:800) {
+    .orderSummary{
+        border-left: none;
+    }
+}

@@ -1,0 +1,136 @@
+.LoginSignUpContainer{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    position: fixed;
+    top:0%;
+    left:0;
+}
+#LoginSignUpBoxx{
+    background-color: #e9e3e3;
+    width: 25vw;
+    height: 70vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.LoginSignUpToggle{
+    display: flex;
+    height: 3vmax;
+}
+
+.LoginSignUpToggle>p{
+    color: black;
+    font: 300 1vmax "Roboto";
+    transition:all 0.5s ;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    
+}
+.LoginSignUpToggle>p:hover{
+    color: tomato;
+}
+
+#LoginSignUpBoxx>div>button{
+    background-color: tomato;
+    height: 2px;
+    width: 50%;
+    border: none;
+    transition: all 0.5s;
+}
+
+.loginForm , .signUpForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    padding: 2vmax;
+    justify-content: space-evenly;
+    height: 70%;
+    transition: all 0.5s;
+
+}
+
+.signUpForm{
+    transform: translateY(-100%) translateX(-100vmax);
+}
+
+.loginForm>div , .signUpForm>div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.loginForm>div>input , .signUpForm>div>input{
+    width: 100%;
+    box-sizing: border-box;
+    border:1px solid black;
+    border-radius: 4px;
+    font: 300 0.9vmax cursive;
+    outline: none;
+    height: 5vh;
+}
+.loginForm>a{
+    text-decoration: none;
+    align-self: flex-end;
+    transition: all 0.5s;
+    font: 500 0.9vmax Roboto;
+}
+.loginForm>a:hover{
+    color: black;
+}
+
+.loginBtn , .signUpBtn{
+    border:none;
+    background-color: tomato;
+    color: white;
+    font:300 0.9vmax Roboto;
+    width:100%;
+    cursor: pointer;
+    height: 5vh;
+}
+.shiftToLeft{
+    transform:translate(-100%);
+}
+.shiftToNeutral{
+    transform:translate(0%);   
+}
+.shiftToNeutralForm{
+    transform: translateX(0%) translateY(-100%);
+}
+.shiftToRight{
+    transform: translate(100%);
+}
+.logo{
+    font: 200 1.9vmax Roboto;
+    text-align: center;
+    margin-top: 1vmax;
+}
+
+@media screen and (max-width: 800px) {
+    .logo{
+        font: 200 2.4vmax Roboto;
+        text-align: center;
+        margin-top: 1vmax;
+        
+    }
+    #LoginSignUpBoxx{
+        height: 50vh;
+        width: 60vw;
+    }
+    .loginForm>div>input{
+        font: 200 2.4vmax Roboto;
+    }
+    .loginForm>input{
+        font: 200 2.4vmax Roboto;
+    }
+    .loginForm>a{
+        font: 200 2.4vmax Roboto;
+    }
+}

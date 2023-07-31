@@ -1,0 +1,65 @@
+.productHading {
+    margin: 2vmax auto;
+    margin-top: 4vmax;
+    width: 15vw;
+    border-bottom: 2px solid gray;
+    padding: 2vmax;
+    color: brown;
+    text-align: center;
+    font: 500 1.5vmax;
+}
+
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 2vmax;
+
+}
+
+.category {
+    position: absolute;
+    margin: 10vmax auto;
+    width: auto;
+    
+}
+
+.category>h2 {
+    color: gray;
+    border-bottom: 2px solid rgb(131, 118, 120);
+    
+    margin-bottom: auto;
+    padding-bottom: 3px;
+}
+
+.category>ul {
+    color: gray;
+    cursor: pointer;
+}
+.categoryBox>li:hover {
+    color: rgb(235, 98, 98);
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .productHading {
+        margin: 2vmax auto;
+        margin-top: 4vmax;
+        width: 50vw;
+        border-bottom: 2px solid gray;
+        padding: 2vmax;
+        color: brown;
+        text-align: center;
+        font: 500 1.5vmax;
+    }
+
+    .category {
+        position: static;
+        width: 30%;
+        
+    
+    }
+}

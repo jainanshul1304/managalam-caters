@@ -1,0 +1,87 @@
+
+.fome{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    position: fixed;
+    top:0%;
+    left:0;
+}
+.box{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: auto;
+    margin-bottom: 2vmax;
+    height: 60vh;
+    width: 25vw;
+}
+.fome1{
+    background-color:antiquewhite;
+    width: 25vw;
+    height: 70vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.loginfome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 2vmax;
+    justify-content: space-evenly;
+    height: 50%;
+    transition: all 0.5s;
+    margin-top: 2vmax;
+}
+.fome>h1{
+    font: 300 0.9vmax cursive;
+}
+.loginfome>div>input{
+    width: 100%;
+    
+    border:1px solid black;
+    border-radius: 4px;
+    font: 300 0.9vmax cursive;
+    outline: none;
+    height: 5vh;
+}
+.loginfome>div{
+    padding: auto;
+    margin-top: 2vmax;
+}
+.loginfome>a{
+    margin-top: 1vmax;
+}
+.loginfome>a>button{
+        
+    border:none;
+    background-color: tomato;
+    color: white;
+    font:300 0.9vmax Roboto;
+    width:100%;
+    cursor: pointer;
+    height: 5vh;
+}
+.loginfome>a>button:hover{
+    color: yellow;
+}
+
+@media screen and (max-width: 800px) {
+    .loginfome>a>button{
+        font: 200 2.4vmax Roboto;
+        width: 10vw;
+        height: 4vh;
+        border-radius: 1px solid black;
+    }
+    .loginfome>div>input{
+        font: 200 2.4vmax Roboto;
+    }
+    .box{
+        width: 50vw;
+    }
+}

@@ -1,0 +1,23 @@
+#img1>p>img{
+    width: 2vmax;
+    height:2vmax ;
+    cursor: pointer;
+}
+#img2>p>img{
+    width: 2vmax;
+    height: 2vmax;
+    
+    cursor: pointer;
+}
+.container2{
+    margin-top: 4vmax;
+}
+.myorderspge>h2{
+    font: 100 1.5vmax "Roboto";
+    justify-items: center;
+    
+}
+
+@media screen and(max-width:800px) {
+    
+}

@@ -1,0 +1,64 @@
+.LoginSignUpBoxxx {
+    position: relative;
+    text-align: center;
+    margin-left: 39vmax;
+    margin-top: 8vmax;
+
+
+}
+
+.LoginSignUpBoxxx>h2 {
+    
+    margin-bottom: 2vmax;
+    
+}
+
+.shippingForm {
+
+    background-color: #e9e3e3;
+    width: 25vw;
+    height: 70vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.shippingForm>div>input {
+    margin-bottom: 2vmax;
+    padding: 0.4vmax;
+    border-radius: 2px solid round;
+}
+
+.shippingForm>p>a {
+    color: black;
+    border: none;
+    background-color: tomato;
+    width: 40%;
+    border-radius: 4px;
+    padding: 0.7vmax;
+    text-decoration: none;
+}
+
+@media screen and (max-width:800px) {
+
+    .LoginSignUpBoxxx {
+       
+        margin-top: 9vmax;
+        width: 90px;
+        
+    }
+
+    .shippingForm>p>a {
+
+        width: 80%;
+        padding: 0.7vmax;
+
+    }
+    .shippingForm{
+        width: 90%;
+        border-radius: 4px;
+        margin-left: 1vmax;
+        margin-right: 1vmax;
+        border: none;
+    }
+
+}

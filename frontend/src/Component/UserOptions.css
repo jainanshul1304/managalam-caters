@@ -1,0 +1,16 @@
+.profile{
+    
+    position:fixed;
+    margin-left: 80vmax;
+    margin-top: 1vmax;
+    border:2px solid black;
+    border-radius: 4px;
+}
+
+@media screen and (max-width:700px) {
+    .profile{
+        margin-right:60vmax;
+        
+    }
+}
+

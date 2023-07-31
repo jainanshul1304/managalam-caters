@@ -1,0 +1,36 @@
+.input-group{
+    margin: 2vmax auto;
+    width: 15vw;
+    position: absolute;
+    left: 150px;
+    
+}
+.login{
+    border-radius: 1px round gray;
+    background-color: antiquewhite;
+    position: absolute;
+    margin-left: 1vmax auto;
+    margin-right: 1vw;
+  
+}
+.login:hover{
+    background-color: aquamarine;
+}
+
+.regester{
+    border-radius: 1px round gray;
+    background-color: antiquewhite;
+    position: absolute;
+    margin-left: 4vmax;
+    
+    
+}
+.regester:hover{
+    background-color: aquamarine;
+}
+
+@media screen and (max-width: 900px) {
+    .regester {
+        
+    }
+}
